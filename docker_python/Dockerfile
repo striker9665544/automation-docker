@@ -1,7 +1,8 @@
 # This line specifies the base Docker image to use. 
 # In this case, it's the official Python 3.8 slim image. 
 # The slim images are smaller and contain only essential components.
-FROM python:3.8-slim
+# docker pull python:3.9-slim
+FROM python:3.9-slim
 
 # This line sets an environment variable named MICRO_SERVICE with the value /home/app/webapp.
 ENV MICRO_SERVICE=/home/app/webapp
